@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+    font-family: 'poppins', sans-serif;
+    background-color: hsl(11, 73%, 96%);
+}
+.container{
+    position: relative;
+    width: 100%;
+    /* background-color: rgba(227, 239, 238, 0.744); */
+    min-height: 100vh;
+    overflow: hidden;
+    padding-top: 100px;
+}
+.form-container{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 0;
+    left: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-size: 40px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.input-field{
+    max-width: 300px;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(12, 54, 54, 0.063);
+    margin: 10px 0;
+    border-radius: 40px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 0.4rem;
+    position: relative;
+}
+.input-field i{
+    text-align: center;
+    line-height: 40px;
+    color: darkslategrey;
+    font-size: 1.5rem;
+}
+.input-field input{
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: darkslategray;
+}
+.input-field input:placeholder-shown{
+    font-weight: 500;
+}
+.manage{
+    display: flex;
+}
+.forgot p{
+    text-align: left;
+    /* padding-bottom: 15px;
+    padding-top: 15px; */
+    padding-right: 25px;
+}
+.forgot a{
+    text-decoration: none;
+    color: gray;
+}
+
+.forgot a:hover{
+    text-decoration: underline;
+}
+
+.account a{
+    text-decoration: none;
+    color: gray;
+}
+
+.account a:hover{
+    text-decoration: underline;
+}
+
+.btn{
+    width: 100px;
+    height: 48px;
+    outline: none;
+    border: none;
+    border-radius: 48px;
+    background-color: red;
+    color: ghostwhite;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 15px 0;
+    transition: all 0.5s;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(116, 39, 39);
+}
+.social-text{
+    padding: 0.7rem 0;
+    font-size: 1.5rem;
+}
+.social-media{
+    display:flex;
+    justify-content: center;
+}
+
+.social-media i{
+    font-size: 30px;
+    color: 	#4285F4;
+}
+
+.social-media i:hover{
+    color: #7b9fd9;
+}
+
+.form p{
+    box-sizing: border-box;
+    justify-content: right;
+    align-items: flex-start;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    padding: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons i{
+    cursor: pointer;
+    font-size: 25px;
+    padding: 13px;
+}
+
+.icons i:hover{
+    color: gray
+}
