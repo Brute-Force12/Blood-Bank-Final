@@ -1,3 +1,4 @@
+/* Update in GitHub  */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap');
 * {
   margin: 0;
@@ -17,7 +18,7 @@ body{
   /* background-color: rgb(255, 190, 190); */
   background-color: hsl(11, 73%, 96%);
 }
-.navbar{
+/* .navbar{
   background-color: rgb(255, 238, 219);
   padding: 10px;
   font-size: 25px;
@@ -40,26 +41,26 @@ body{
   font-family: 'Roboto', sans-serif; 
   font-weight: bolder;
 
-}
-#title0{
+} */
+/* #title0{
   margin-top: 15px;
-  /* align-items: center; */
-}
+  // align-items: center; 
+} */
 .para{
   font-size: 30px;
   text-align: center;
 }
-.logo{
+/* .logo{
   top: 10px;
   right: 20px;
   font-size: 30px;
   position: absolute;
-}
+} */
 
-.logo i:hover{
+/* .logo i:hover{
   cursor: pointer;
   color: gray;
-}
+} */
 
 /* *{
   box-sizing: border-box;
