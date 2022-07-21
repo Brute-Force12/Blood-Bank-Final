@@ -1,0 +1,31 @@
+
+.b1{
+    height: 355px;
+    width:1444px;
+    color: black;
+    background-image: url(imag1.jpg);
+    /* background-size: ; */
+    background-repeat: no-repeat;
+    background-size: 577px 377px;
+}
+.a, .l, .b{
+    background-color: rgb(252, 205, 205);
+    display: grid;
+    
+}
+.l{
+    /* height: 140px; */
+    /* width: 340px; */
+    display: grid; 
+}
+
+h1{
+    color: black;
+}
+h2{
+    color: black;
+}
+body{
+    background-color: rgb(251, 225, 225);
+    text-align: center;
+}

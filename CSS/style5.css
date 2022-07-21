@@ -1,0 +1,86 @@
+.img{
+    background-image: url(/BloodBank/images/bloodbank.jpg);
+    max-width: 100%;
+     
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body-containt{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    padding: 25px;
+    margin: 15px;
+}
+
+form{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+.main-containt{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+.input{
+    max-width: 300px;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(26, 57, 57, 0.989);
+    margin: 10px 0;
+    border-radius: 40px;
+    display: grid;
+    padding: 0 0.4rem;
+    position: relative;
+    
+}
+
+.input input{
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: darkslategray;
+}
+.group{
+    max-width: 300px;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(4, 10, 10, 0.989);
+    margin: 10px 0;
+    border-radius: 40px;
+    display: grid;
+    padding: 0 0.4rem;
+    position: relative;
+}
+.group option{
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: darkslategray;
+}
+.msg{
+    border-radius: 10px;
+    border: 40px;
+}
