@@ -1,11 +1,12 @@
+/* Update in GitHub  */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;  
 }
+
 body{
     background-color: hsl(11, 73%, 96%);
 }
@@ -27,6 +28,7 @@ header {
     /* justify-content: right; */
     padding: 3px;
     margin: 0 0;
+    width: 100%;
 }
 
 #mar{
@@ -36,6 +38,16 @@ header {
     margin: 0 10px;
     font-size: 25px;
 }
+
+/* @media (max-width:360px) {
+    #mar{
+        width: 107px;
+        background-color: hsl(12, 69%, 35%);
+        padding: 10px;
+        margin: 0 10px;
+        font-size: 25px;
+    }
+} */
 .nav1 ul {
     display: flex;
     align-items: center;
@@ -55,40 +67,7 @@ header {
     color: red;
 }
 
-.nav2 {
-    padding: 0 30px;
-    height: 0px;
-    min-height: 15vh;
-    margin-bottom: 5px;
-    box-shadow: 2px 2px 15px gray;
-}
 
-.nav2 .logo {
-    color: red;
-    font-size: 50px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
-
-}
-
-.nav2 ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-between
-}
-
-.nav2 ul li a {
-    color: gray;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: bolder;
-    line-height: 100px;
-}
-
-.nav2 ul li a:hover {
-    color: black;
-    border-bottom: 5px solid red;
-}
 
 .division {
     flex: 0 0 auto;
@@ -245,7 +224,7 @@ input[type="submit"]:hover{
     cursor: pointer;
 }
 
-.footer{
+/* .footer{
     background-color: black;
     color: white;
     margin-top: 50px;
@@ -262,4 +241,4 @@ input[type="submit"]:hover{
 
 .icons i:hover{
     color: gray
-}
+} */
