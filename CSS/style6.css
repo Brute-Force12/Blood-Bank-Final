@@ -3,7 +3,7 @@
     height: 355px;
     width:1444px;
     color: black;
-    background-image: url(../images/imag1.jpg);
+    background-image: url('../images/imag1.jpg');
     /* background-size: ; */
     background-repeat: no-repeat;
     background-size: 577px 377px;
